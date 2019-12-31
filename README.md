@@ -4,13 +4,8 @@
 
 1. 下载wiki dump地址：<https://dumps.wikimedia.org/backup-index-bydb.html>
 2. 生成term-to-concept的索引：java -DentityExpansionLimit=2147480000 -DtotalEntitySizeLimit=2147480000 -Djdk.xml.totalEntitySizeLimit=2147480000 -Xmx16g -jar esa-1.0-SNAPSHOT.jar
-3. 
-
-1. wiki中繁体转简体，其他语言的处理
-2. tfidf特征构建索引
-3. 代码中加入中文停用词
-4. wiki概念层级分析
-5. 分词
+3. 繁体转简体、分词、停用词
+4. tfidf特征构建索引
 
 ### wiki概念分析
 
